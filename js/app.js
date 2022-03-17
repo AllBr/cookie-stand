@@ -53,7 +53,7 @@ function createHead() {
 
   // This pushes the store hours and total labels over 1 space so that there is no time above the first columnm, which is store location
   //
-  let firstHeaderEmpty = document.createElement('th');
+let firstHeaderEmpty = document.createElement('th');
   rowHead.appendChild(firstHeaderEmpty);
 
 
