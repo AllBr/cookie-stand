@@ -150,7 +150,7 @@ LocationData.prototype.render = function() {
 
 
 ///--check
-function hourlyTotalArr() {
+function totalForHour() {
   console.log('***log 10***');
   for(let j = 0; j < businessHours.length; j = j + 1) { ///--check
     for(let k = 0; k < locationArray.length; k = k + 1) { ///--check
@@ -171,7 +171,7 @@ function renderLocations() {
     
   }
   
-  hourlyTotalArr();
+  totalForHour();
 }
 
 // finally, call functions
