@@ -13,7 +13,7 @@ Tuesday, 15 Mar 2022
 
 Wed, 16 Mar 2022
 
-### Lab 08b: cookie-stand
+### Lab 09: cookie-stand
 
 Thurs, 17 Mar 2022
 
