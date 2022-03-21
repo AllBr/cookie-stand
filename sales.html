@@ -20,6 +20,25 @@
     <h2>Sales by City:</h2>
     <br>
     <br>
+  <section>
+    <form id="locationForm">
+      <!--Basic fieldset template from Mozilla Developer Network documentation-->
+        <fieldset>
+          <legend>
+            Welcome franchisee! Report your location's data and sales!
+          </legend>
+          <label for="store">New location:</label>
+          <input type="text" name="location" id="location">
+          <label for="minimum">Minimum customers an hour:</label>
+          <input type="number" name="minCustomer" id="minCustomer">
+          <label for="max">Maximum customers an hour:</label>
+          <input type="number" name="maxCustomer" id="maxCustomer">
+          <label for="average">Average cookies sold:</label>
+          <input type="number" name="average" id="average">
+          <button type="submit">Submit Franchise Data</button>
+        </fieldset>
+      </form>
+  </section>
   <section id="content"></section>
   <script src="js/app.js"></script>
 </body>
