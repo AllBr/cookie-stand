@@ -1,50 +1,14 @@
 /* 16 Mar changes */
 
 /*
-body {
-  background-color: rgb(241, 184, 213);
-}
 
-h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 30px;
-  text-align: center;
-  font-weight: bold;
-}
+Added extra CSS for Lab 10
 
-table {
-  border-color: salmon;
-  border-width: 1em;
-  border-style: solid;
-}
-
-td {
-  border-width: 0.5em;
-  border-style: solid;
-  padding: 15px;
-  text-align: center;
-  font-family: sans-serif, Times, Tahoma, ;
-  width: 15px;
-}
 */
 
-/* 16 Mar changes */
-
-#family {
-  
-}
-
-#chinook {
-  
-}
-
-
-* {
-  background-color: rgb(95, 150, 64);
-}
 
 h1 {
-  font-family: 'Times New Roman', Times, Georgia;
+  font-family: 'roboto';
   font-size: 3em;
   text-align: center;
   font-weight: bold;
@@ -73,6 +37,13 @@ footer {
 
 }
 
+body {
+  background-color: rgb(95, 150, 64);
+  font-family: Georgia, Times;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 header {
   width: 100%;
   height: 70px;
@@ -98,6 +69,7 @@ a {
 
 img {
   display: block;
+  size: 200px;
   padding: 4px;
   margin-left: auto;
   margin-right: auto;
@@ -122,6 +94,7 @@ main > section {
   border-left-style: none;
   border-right-style: none;
   border-bottom-style: none;
+
 }
 
 section > article {
@@ -133,11 +106,10 @@ article > img {
 }
 
 
-
-
-
-
 table, thead, th, tr, td{
+
+  font-family: Arial, Verdana, Helvetica;
+  background-color: rgb(118, 134, 97);
   border: 5px solid rgb(184, 13, 13);
   padding: 5px 5px 5px 5px;
   text-align: center;
@@ -159,6 +131,34 @@ td {
   border: 5px solid rgb(184, 13, 13);
   padding: 5px 5px 5px 5px;
   text-align: center;
+}
+
+fieldset {
+  background-color: black;
+  flex-direction: column;
+  background-color: darkgray;
+  max-width: 20%;
+  border: 10px solid rgb(0, 0, 0);
+  margin-left: 50px;
+  margin-top: 50px;
+  border-bottom-right-radius: 8%;
+}
+
+legend {
+  background-color: rgb(167, 50, 50);
+  font-weight: bold;
+}
+
+label {
+  background-color: gray;
+}
+
+input {
+  background-color: gray;
+}
+
+button {
+  background-color: red;
 }
 
 /* sales page */
